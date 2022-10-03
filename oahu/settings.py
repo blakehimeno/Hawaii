@@ -159,4 +159,4 @@ if not DEBUG:
     SECURE_HSTS_PRELOAD = True
     X_FRAME_OPTIONS = "DENY"
 
-    ALLOWED_HOSTS = ["squid-app-7gdcf.ondigitalocean.app/"]
+    ALLOWED_HOSTS = ["*"]
